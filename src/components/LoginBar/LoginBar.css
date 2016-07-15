@@ -2,8 +2,6 @@
 
 /* Mobile first queries */
 
-/* Larger than mobile */
-
 .loginTitle {
   font-size: 20px;
   padding: 5px;
@@ -15,10 +13,9 @@
   justify-content: center;
   align-items: center;
   background-color: #eee;
-  width: 50%;
-  height: 50%;
   border-radius: 7px;
   text-align: center;
+  margin-top: 30px;
 }
 
 .formContainer {
@@ -36,7 +33,7 @@
   font-size: 20px;
   padding: 5px;
   margin: 5px;
-  width: 100%;
+  width: 75%;
 }
 
 .formButton {
@@ -45,3 +42,20 @@
   margin: 10px 0 20px 0;
   align-self: flex-end;
 }
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  .loginBar {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}

@@ -1,0 +1,9 @@
+/*HeaderBar.css*/
+
+.headerbar {
+  border-bottom: 1px solid white;
+}
+
+.headerbarItem {
+  margin: 0 10px;
+}

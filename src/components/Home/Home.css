@@ -17,3 +17,8 @@
 .splashHeader {
   margin-bottom: 10px;
 }
+
+.logo {
+  width: 300px;
+  height: auto;
+}

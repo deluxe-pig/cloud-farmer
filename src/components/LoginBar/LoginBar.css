@@ -1,4 +1,47 @@
 /*LoginBar.css*/
-.loginBar {
 
+/* Mobile first queries */
+
+/* Larger than mobile */
+
+.loginTitle {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.loginBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  width: 50%;
+  height: 50%;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formInputContainer {
+  
+}
+
+.formInput {
+  border-radius: 7px;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+  width: 100%;
+}
+
+.formButton {
+  width: 30%;
+  height: 40px;
+  margin: 10px 0 20px 0;
+  align-self: flex-end;
 }

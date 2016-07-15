@@ -1,1 +1,5 @@
 /*Login.css*/
+.loginRoot {
+  display: flex;
+  justify-content: center;
+}

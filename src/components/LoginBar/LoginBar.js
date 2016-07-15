@@ -7,12 +7,20 @@ export default class Login extends Component {
   render() {
     return (
       <div className={styles.loginBar}> 
-        <h1>Login</h1>
-        <form>
-        <input type="text" name="email"> </input>
-        <input type="text" name="password"> </input>
-        </form>
-        <button> Login </button>
+        <h1 className={styles.loginTitle}>Login</h1>
+        <div>
+          <form className={styles.formInputContainer}>
+            <div className={styles.formEmail}>
+              <label> Email Address </label>
+              <input className={styles.formInput} type="text" name="email"> </input>
+            </div>
+            <div className={styles.formInputContainer}>
+              <label> Password </label>
+              <input className={styles.formInput} type="password" name="password"> </input>
+            </div>
+            <button className={styles.formButton}> Login </button>
+          </form>
+        </div>
       </div>
     );
   }

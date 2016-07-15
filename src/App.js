@@ -5,8 +5,8 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Login />
         <Home />
+        <Login />
       </div>  
     );
   }

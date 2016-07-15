@@ -1,4 +1,9 @@
 /*LoginBar.css*/
+
+/* Mobile first queries */
+
+/* Larger than mobile */
+
 .loginTitle {
   font-size: 20px;
   padding: 5px;
@@ -17,20 +22,26 @@
 }
 
 .formContainer {
-  padding: 0 90px 30px 90px
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.formEntry {
+.formInputContainer {
+  
+}
+
+.formInput {
   border-radius: 7px;
   font-size: 20px;
   padding: 5px;
   margin: 5px;
-  width: 60%;
+  width: 100%;
 }
 
 .formButton {
-  margin: 5px;
-  width: 40%;
-  height: 50%;
+  width: 30%;
+  height: 40px;
+  margin: 10px 0 20px 0;
   align-self: flex-end;
 }

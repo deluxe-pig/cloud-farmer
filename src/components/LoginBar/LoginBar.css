@@ -1,4 +1,36 @@
 /*LoginBar.css*/
-.loginBar {
+.loginTitle {
+  font-size: 20px;
+  padding: 5px;
+}
 
+.loginBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  width: 50%;
+  height: 50%;
+  border-radius: 7px;
+  text-align: center;
+}
+
+.formContainer {
+  padding: 0 90px 30px 90px
+}
+
+.formEntry {
+  border-radius: 7px;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
+  width: 60%;
+}
+
+.formButton {
+  margin: 5px;
+  width: 40%;
+  height: 50%;
+  align-self: flex-end;
 }

@@ -68,7 +68,8 @@ h1 {
   border: none;
   border-radius: 7px;
   padding: 10px;
-  background-color: #b8f3ff;
+  background-color: rgba(227, 75, 48, .7);
+  color: white;
 }
 
 .flex-row-sb {

@@ -9,4 +9,5 @@
 // export App from './App'
 export LoginBar from './LoginBar/LoginBar'
 export HeaderBar from './HeaderBar'
-export HomeBody from './HomeBody'
+export HomeBody from './Home/HomeBody'
+export HomeSplash from './Home/HomeSplash'

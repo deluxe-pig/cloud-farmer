@@ -2,6 +2,32 @@
 
 .homeBody {
   height: 400px;
+  position: relative;
+}
+
+@media (min-width: 500px) {
+  .clouds {
+    height: 50px;
+    position: relative;
+  }
+}
+
+@media (min-width: 700px) {
+  .clouds {
+    height: 100px;
+    position: relative;
+  }
+}
+
+@media (min-width: 1000px) {
+  .clouds {
+    height: 150px;
+    position: relative;
+  }
+}
+
+.clouds {
+  position: relative;
 }
 
 .headerbarItem {
@@ -12,13 +38,28 @@
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+  z-index: 1;
 }
 
 .splashHeader {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .logo {
   width: 300px;
   height: auto;
+}
+
+.bgClouds {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  transform: translate(-50%, 0);
+  bottom: 0;
+}
+
+.signupBtn {
+  padding: 13px 20px;
+  font-size: 16px;
+  font-weight: 100;
 }

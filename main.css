@@ -50,12 +50,18 @@ body {
   background-color: white;
   font-family: 'Helvetica Neue', 'Robot', 'Arial', sans-serif;
   font-weight: 100;
+  color: #777;
   margin: 0;
 }
 
 h1 {
   font-weight: 300;
   font-size: 32px;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 24px;
 }
 
 .container {
@@ -70,6 +76,14 @@ h1 {
   padding: 10px;
   background-color: rgba(227, 75, 48, .7);
   color: white;
+}
+
+.btn:active {
+  background-color: rgba(200, 55, 30, .7);
+}
+
+.btn:focus {
+  outline: none;
 }
 
 .flex-row-sb {

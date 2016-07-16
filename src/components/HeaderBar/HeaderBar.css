@@ -8,6 +8,21 @@
 
 .headerbarItem {
   margin: 0 10px;
+  color: #fff;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.loginSignup {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
 }
 
 /* Larger than mobile */

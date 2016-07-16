@@ -1,0 +1,16 @@
+/*Faq.css*/
+.faq {
+  background: linear-gradient(to bottom, #92d1c4 0%, #c9dcbc 100%); /* For browsers that do not support gradients */
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  text-align: center;
+  color: white;
+  height: 100%;
+}
+
+@media (min-width: 600px) {
+  .faq {
+    height: 100vh;
+  }
+}

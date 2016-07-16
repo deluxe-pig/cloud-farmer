@@ -1,16 +1,17 @@
 // Account.js
 
 import React, { Component } from 'react';
-import { HeaderBar, LgTextBody, SimpleMeter } from '../../components';
+import { HeaderBar, LgTextBody } from '../../components';
+import { StorageUsage } from '../index.js'
 import styles from './Account.css';
 
-export default class Faq extends Component {
+export default class Account extends Component {
   render() {
     return (
-      <div>
+      <div className={styles.accountRoot}>
         <HeaderBar />
         <div>
-          <SimpleMeter />
+          <StorageUsage />
         </div>
       </div>
     );

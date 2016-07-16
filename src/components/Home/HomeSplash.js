@@ -12,7 +12,7 @@ export default class HomeSplash extends Component {
             <img src={logo} className={styles.logo} />
             <p>Earn money by renting cloud storage space.</p>
           </div>
-          <input type="button" value="Call to Action" className="btn" />
+          <input type="button" value="sign up" className={"btn " + styles.signupBtn} />
         </div>
       </div>
     );

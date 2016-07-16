@@ -1,0 +1,24 @@
+/*LgTextBody.css*/
+
+.title {
+  padding: 20px 0;
+}
+
+.bodyContainer {
+  margin: auto;
+  width: 80%;
+}
+
+.bodyHeader {
+  font-size: 40px;
+}
+
+.bodyText {
+  font-size: 20px;
+}
+
+.bodyFooter {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+

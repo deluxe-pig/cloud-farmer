@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { LoginBar, HeaderBar } from '../../components';
+import { LoginBar, SimpleHeader } from '../../components';
 import styles from './Login.css';
 
 export default class Login extends Component {
   render() {
     return (
-      <div>
-        {/*<HeaderBar />*/}
-        <div className={styles.loginRoot}>
+      <div className={styles.loginPage}>
+        <SimpleHeader />
+        <div className={styles.loginBar}>
           <LoginBar />
         </div>  
       </div>

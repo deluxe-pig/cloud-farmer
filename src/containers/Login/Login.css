@@ -1,6 +1,10 @@
 /*Login.css*/
-.loginRoot {
+.loginPage {
+  background: linear-gradient(to bottom, #92d1c4 0%, #c9dcbc 100%); /* For browsers that do not support gradients */
+}
+.loginBar {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }

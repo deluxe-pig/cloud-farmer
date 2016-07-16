@@ -12,10 +12,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #eee;
+  background-color: #fff;
   border-radius: 7px;
   text-align: center;
-  margin-top: 30px;
 }
 
 .formContainer {

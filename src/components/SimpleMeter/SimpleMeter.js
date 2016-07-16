@@ -7,7 +7,9 @@ export default class SimpleMeter extends Component {
   render() {
     return (
       <div>
-        Simple Meter goes here!
+        <div className={styles.meter}>
+          <span className={styles.progress}></span>
+        </div>
       </div>
     );
   }

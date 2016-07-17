@@ -63,3 +63,44 @@
   font-size: 16px;
   font-weight: 100;
 }
+
+/* HomeBody Styling */
+
+.descriptionsContainer {
+  margin-top: 15px;
+}
+
+.descriptionImgContainer {
+  border-radius: 15px;
+  height: 250px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.descriptionImg {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to bottom, #92d1c4 0%, #c9dcbc 100%);
+  border-radius: 15px 15px 0 0;
+}
+
+.gb {
+  padding: 15px;
+}
+
+.storageImg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 170px;
+  height: auto;
+}
+
+.lineHeader {
+  margin-bottom: 6px;
+}
+
+.lineP {
+  line-height: 20px;
+}
+

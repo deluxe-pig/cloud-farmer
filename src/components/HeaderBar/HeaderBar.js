@@ -13,7 +13,15 @@ export default class HeaderBar extends Component {
             <img src={logo} className={styles.logo} />
           </Link>
           
-          <div className={'flex-row-sb ' + styles.loginSignup}>
+          <div className={'flex-row-sb ' + styles.headerbarTools}>
+
+            <Link className={styles.link} to='/account'>
+            <span className={styles.headerbarItem}>account</span>
+            </Link>
+
+            <Link className={styles.link} to='/faq'>
+            <span className={styles.headerbarItem}>faq</span>
+            </Link>
             
             <Link className={styles.link} to='/login'>
             <span className={styles.headerbarItem}>login</span>

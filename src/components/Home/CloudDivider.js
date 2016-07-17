@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styles from './Home.css';
 import cloudfarmerBg from './../../assets/cloudfarmer-bg-1.svg';
 
-/* Main splash component of the homepage */
+/* Cloud divider on the bottom of the HomeSplash component */
 export default class CloudDivider extends Component {
   render() {
     return (

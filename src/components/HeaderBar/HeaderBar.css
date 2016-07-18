@@ -4,6 +4,7 @@
 
 .headerbar {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 5px 0;
 }
 
 .headerbarItem {
@@ -21,7 +22,7 @@
 }
 
 .logo {
-  width: 200px;
+  width: 30px;
   height: auto;
 }
 

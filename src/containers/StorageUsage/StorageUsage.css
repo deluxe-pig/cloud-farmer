@@ -1,8 +1,26 @@
 /*StorageUsage.css*/
 
 .storageContainer {
-  padding: 10px;
-  width: 25%;
   background-color: rgba(150, 150, 150, 0.5);
+  /*box-shadow: 0 0 10px rgba(150, 150, 150, 0.5);*/
+  width: 80%;
+  padding: 10px;
   border-radius: 3px;
+  margin: auto;
+  margin-top: 10px;
 }
+
+.storageTitle {
+  padding: 5px 0 10px 0;
+}
+
+/* Larger than mobile */
+@media (min-width: 500px) {
+  .storageContainer {
+    margin: 0;
+    width: 30%;
+  }
+}
+
+
+

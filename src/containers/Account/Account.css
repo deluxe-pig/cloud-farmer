@@ -1,0 +1,6 @@
+/*Account.css*/
+
+.accountRoot {
+  background: linear-gradient(to bottom, #92d1c4 0%, #c9dcbc 100%); /* For browsers that do not support gradients */
+  height: 100vh;
+}

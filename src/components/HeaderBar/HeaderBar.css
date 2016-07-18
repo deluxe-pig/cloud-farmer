@@ -16,9 +16,10 @@
   text-decoration: none;
 }
 
-.loginSignup {
+.headerbarTools {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -27,7 +28,10 @@
 }
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+  .headerbarTools {
+  }
+}
 
 /* Larger than phablet */
 @media (min-width: 550px) {}

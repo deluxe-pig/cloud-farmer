@@ -17,4 +17,5 @@ export SimpleHeader from './SimpleHeader/SimpleHeader'
 export LgTextBody from './LgTextBody/LgTextBody'
 export SimpleMeter from './SimpleMeter/SimpleMeter'
 export EditStorage from './EditStorage/EditStorage'
-
+export EditBandwidth from './EditBandwidth/EditBandwidth'
+export EditStorageModal from './EditStorageModal/EditStorageModal'

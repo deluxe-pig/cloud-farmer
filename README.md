@@ -1,5 +1,16 @@
 # Cloudfarmer.io
 
+## Getting Started
+
+To run: 
+1. clone down the project
+2. cd into the directory
+3. type `npm install`
+4. type `npm start`
+5. Visit the client at localhost:3000
+
+That should be it! 
+
 ## What is Cloudfarmer?
 Cloudfarmer is the easiest way to start farming in the cloud. We provide a dashboard that gives customers full control over their farming nodes, including the ability to add or remove hard drive space and adjust pricing on storage and bandwidth contracts. Cloudfarmer handles the backend administration and uses the collective purchasing power of our customers to get the lowest prices on cloud storage.
 

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import styles from './PayoutAddress.css';
 import { Link } from 'react-router';
 
-export default class SimpleMeter extends Component {
+export default class PayoutAddress extends Component {
   render() {
     return (
       <div>

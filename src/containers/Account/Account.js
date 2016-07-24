@@ -1,7 +1,7 @@
 // Account.js
 
 import React, { Component } from 'react';
-import { HeaderBar, LgTextBody, EditStorage } from '../../components';
+import { HeaderBar, LgTextBody, EditStorage, PayoutAddress } from '../../components';
 import { StorageUsage } from '../index.js'
 import styles from './Account.css';
 
@@ -15,6 +15,12 @@ export default class Account extends Component {
         </div>
         <div>
           <EditStorage />
+        </div>
+        <div>
+          <EditStorage />
+        </div>
+        <div>
+          <PayoutAddress />
         </div>
 
       </div>

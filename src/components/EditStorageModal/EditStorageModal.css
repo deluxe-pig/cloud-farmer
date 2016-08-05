@@ -1,4 +1,8 @@
 /*EditStorageModal.css*/
+/* important tag is used here because Boron overrides css when loading boron/FadeModal */
 .modal {
-  width: 50%;
+  width: 60% !important;
+  height: 60% !important;
+  background-color: white;
+  border-radius: 3px;
 }

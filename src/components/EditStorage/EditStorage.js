@@ -8,7 +8,6 @@ export default class EditStorage extends Component {
   render() {
     return (
       <div className={styles.editStorageContainer}>
-        <h1 className={styles.editStorageTitle}> </h1>
         <EditStorageModal />
       </div>  
     );

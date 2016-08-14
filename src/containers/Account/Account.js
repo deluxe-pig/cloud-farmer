@@ -14,12 +14,6 @@ export default class Account extends Component {
           <StorageUsage />
         </div>
         <div>
-          <EditStorage />
-        </div>
-        <div>
-          <EditStorage />
-        </div>
-        <div>
           <PayoutAddress />
         </div>
         <div>

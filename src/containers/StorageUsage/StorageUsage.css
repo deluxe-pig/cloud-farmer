@@ -8,10 +8,18 @@
   border-radius: 3px;
   margin: auto;
   margin-top: 10px;
+  text-align: center;
 }
 
 .storageTitle {
   padding: 5px 0 10px 0;
+}
+
+.editStorageModal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
 }
 
 /* Larger than mobile */

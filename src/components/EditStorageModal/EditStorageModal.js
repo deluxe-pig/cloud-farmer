@@ -15,7 +15,7 @@ var EditStorageModal = React.createClass({
   },
   render: function() {
     return (
-      <div>
+      <div className={styles.storageModalWrapper}>
         <button onClick={this.showModal}>Add Storage</button>
         <Modal ref="modal" className={styles.modal}>
           <h2>Storage Modal</h2>
